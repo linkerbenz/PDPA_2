@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDPA_2</title>
+  <!-- Google Fonts similar to PDPA structure -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="icon" href="/assets/bg.svg" type="image/svg+xml">
+</head>
+
+<body>
+  <div id="app">
+    <main class="landing-outer">
+      <!-- Scroll Wrapper containing the 3 sections -->
+      <div class="scroll-wrapper" id="scroll-wrapper">
+        <!-- Top Section -->
+        <section class="section section-canopy" id="section-canopy">
+          <div class="content">
+            <h1>Canopy</h1>
+            <p>Topmost Branch</p>
+          </div>
+        </section>
+
+        <section class="section section-trunk" id="section-trunk">
+          <div class="trunk-container" style="text-align: center;">
+            <h1 style="margin-bottom: 2rem;">Trunk</h1>
+
+            <div class="card-container-row">
+              <!-- Card 1 -->
+              <div class="leaf-swing-wrapper">
+                <div class="leaf-card">
+                  <div class="card-inner">
+                    <div class="card-face card-front">
+                      <div class="card-icon">🍃</div>
+                      <h3>Mission</h3>
+                    </div>
+                    <div class="card-face card-back">
+                      <p>To protect data privacy with unwavering dedication.</p>
+                      <small>(Click to flip)</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="leaf-swing-wrapper">
+                <div class="leaf-card">
+                  <div class="card-inner">
+                    <div class="card-face card-front">
+                      <div class="card-icon">🛡️</div>
+                      <h3>Security</h3>
+                    </div>
+                    <div class="card-face card-back">
+                      <p>Implementing top-tier security measures for all.</p>
+                      <small>(Click to flip)</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="leaf-swing-wrapper">
+                <div class="leaf-card">
+                  <div class="card-inner">
+                    <div class="card-face card-front">
+                      <div class="card-icon">⚖️</div>
+                      <h3>Rights</h3>
+                    </div>
+                    <div class="card-face card-back">
+                      <p>Respecting and defending your digital rights.</p>
+                      <small>(Click to flip)</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Bottom Section (Default Landing) -->
+        <section class="section section-root" id="section-root">
+          <div class="content">
+            <h1>Root</h1>
+            <p>Starting Point</p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="nav-arrows">
+        <button id="nav-up" aria-label="Scroll Up">▲</button>
+        <button id="nav-down" aria-label="Scroll Down">▼</button>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
